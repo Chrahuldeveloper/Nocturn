@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Book Reader</title>
+
+    <link rel="stylesheet" href="./read.css">
+</head>
+
+<body>
+
+    <header class="reader-header">
+
+        <div class="header-left">
+
+            <button class="icon-button" id="backButton" title="Back">
+                ←
+            </button>
+
+            <div class="book-info">
+
+                <span class="book-icon">📖</span>
+
+                <div>
+                    <h1 id="bookTitle">
+                    </h1>
+
+                    <p id="bookAuthor">
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main class="reader">
+
+        <div class="book-container">
+            <div id="book"></div>
+        </div>
+
+    </main>
+
+
+
+    <aside
+        class="settings-panel"
+        id="settingsPanel"
+    >
+        <div class="panel-header">
+
+            <h2>Reading settings</h2>
+
+            <button id="closeSettings">
+                ×
+            </button>
+
+        </div>
+
+
+        <div class="setting-section">
+
+            <h3>Theme</h3>
+
+            <div class="theme-options">
+
+                <button
+                    class="theme-option active"
+                    data-theme="dark"
+                >
+                    <span class="theme-circle dark"></span>
+                    Dark
+                </button>
+
+                <button
+                    class="theme-option"
+                    data-theme="black"
+                >
+                    <span class="theme-circle black"></span>
+                    Black
+                </button>
+
+                <button
+                    class="theme-option"
+                    data-theme="sepia"
+                >
+                    <span class="theme-circle sepia"></span>
+                    Sepia
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="setting-section">
+            <div class="setting-label">
+
+                <span>Font size</span>
+
+                <span id="fontSizeValue">
+                    100%
+                </span>
+
+            </div>
+            <input
+                id="fontSize"
+                type="range"
+                min="80"
+                max="140"
+                value="100"
+            >
+
+        </div>
+
+
+        <div class="setting-section">
+
+            <div class="setting-label">
+
+                <span>Page width</span>
+
+                <span id="pageWidthValue">
+                    760px
+                </span>
+
+            </div>
+
+            <input
+                id="pageWidth"
+                type="range"
+                min="600"
+                max="1100"
+                value="760"
+            >
+
+        </div>
+
+
+        <div class="setting-section">
+            <div class="setting-label">
+
+                <span>Brightness</span>
+
+                <span id="brightnessValue">
+                    100%
+                </span>
+
+            </div>
+
+            <input
+                id="brightness"
+                type="range"
+                min="60"
+                max="120"
+                value="100"
+            >
+
+        </div>
+
+    </aside>
+
+
+
+
+
+    <script  type="module" src="./read.js"></script>
+
+</body>
+
+</html>

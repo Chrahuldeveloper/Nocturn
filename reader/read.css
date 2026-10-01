@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    background: #101011;
+    color: #e5e5e7;
+    font-family: Arial, sans-serif;
+}
+
+
+#book {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+    padding: 40px 20px;
+}
+
+
+.pdf-page {
+    position: relative;
+    background: #1a1a1a;
+    box-shadow:
+        0 10px 40px rgba(0, 0, 0, 0.45);
+    overflow: hidden;
+    max-width: 100%;
+}
+
+
+.pdf-page canvas {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    filter:
+        invert(0.88)
+        hue-rotate(180deg)
+        brightness(0.82)
+        contrast(0.92);
+}
+
+
+.error {
+    color: #ff6b6b;
+    padding: 40px;
+    text-align: center;
+}
