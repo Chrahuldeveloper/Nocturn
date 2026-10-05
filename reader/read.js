@@ -48,6 +48,7 @@ async function loadPDF() {
             const context = canvas.getContext("2d");
 
             canvas.width = viewport.width;
+            
             canvas.height = viewport.height;
 
             pageContainer.appendChild(canvas);
