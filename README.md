@@ -1,6 +1,6 @@
-![Book Dark Mode](./logo.jpeg)
+# Read Pdf's in Dark Mode
 
-# Book Dark Mode
+![Book Dark Mode](./logo.jpeg)
 
 A Chrome extension that opens PDFs in a custom dark-mode reader using PDF.js.
 
