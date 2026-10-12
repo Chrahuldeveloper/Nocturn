@@ -1,3 +1,5 @@
+![Book Dark Mode](./asserts/logo.png)
+
 # Book Dark Mode
 
 A Chrome extension that opens PDFs in a custom dark-mode reader using PDF.js.
