@@ -1,4 +1,4 @@
-![Book Dark Mode](./asserts/logo.png)
+![Book Dark Mode](./logo.jpeg)
 
 # Book Dark Mode
 
