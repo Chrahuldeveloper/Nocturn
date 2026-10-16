@@ -1,4 +1,4 @@
-# Read Pdf's in Dark Mode
+# Read Pdf's in Dark Mode in Chrome
 
 ![Book Dark Mode](./logo.jpeg)
 
